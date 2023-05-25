@@ -4,66 +4,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/*
-.hero {
-    position: relative;
-    text-align: center;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../images/img_1.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hero .logo {
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: 20px;
 }
 
-.hero .text h1 {
-    color: white;
-    font-size: 6em;
-    letter-spacing: 1;
-    font-weight: 600;
-}
-
-.hero .text h4 {
-    color: white;
-    font-size: 2em;
-    padding: 0px 300px;
-    letter-spacing: 1.5;
-    line-height: 2;
-    font-weight: 600;
-}
-
-.hero a {
-    text-align: center;
-    background-color: rgb(54, 52, 52);
-    border-radius: 20px;
-    font-size: 15px;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 100px;
-    transition: .5s;
-}
-
-.hero a:hover {
-    background-color: blue;
-}
-*/
-section {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
-    display: grid;
-    justify-items: center;
-}
-
-section .show {
+#background {
+    display:block;
     width: 50%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 50px;
+    -webkit-transform: translateX(-50% translateY(-50%;
+    transform: translateX(-50% translateY(-50%));
+    cursor: pointer;
 }
