@@ -63,15 +63,6 @@ section .show {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
-section .show a {
-    text-align: center;
-    background-color: blue;
-    border-radius: 20px;
-    font-size: 15px;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 100px;
-}
